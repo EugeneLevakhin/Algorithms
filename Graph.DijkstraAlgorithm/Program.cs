@@ -13,22 +13,22 @@ namespace Graph.DijkstraAlgorithm
 			Point p3 = new Point("3");
 			Point p4 = new Point("4");
 			Point p5 = new Point("5");
-			Point p6 = new Point("6");
 
 			Path path12 = new Path(p1, p2, 7);
 			Path path13 = new Path(p1, p3, 9);
-			Path path16 = new Path(p1, p6, 14);
+			Path path16 = new Path(p1, p5, 14);
 
 			Path path23 = new Path(p2, p3, 10);
 			Path path24 = new Path(p2, p4, 15);
 
 			Path path34 = new Path(p3, p4, 11);
-			Path path36 = new Path(p3, p6, 2);
+			Path path36 = new Path(p3, p5, 2);
 
 			//Path path45 = new Path(p4, p5, 6);
 			//Path path65 = new Path(p6, p5, 9);
 
-			foreach (var poin in FindShortestPathForWeightedGraph(p1, p5))
+			var t = FindShortestPathForWeightedGraph(p1, p5);
+			foreach (var poin in t) 
 			{
 				Console.WriteLine(poin.Name);
 			}

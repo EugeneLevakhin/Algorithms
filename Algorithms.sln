@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph.DijkstraAlgorithm", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyFeed", "CurrencyFeed\CurrencyFeed.csproj", "{46B58715-E9FA-453B-970B-81138F060E17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort.QuickSort", "Sort.QuickSort\Sort.QuickSort.csproj", "{14B0B01E-A76B-4883-9CB0-96FE153F412C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{46B58715-E9FA-453B-970B-81138F060E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46B58715-E9FA-453B-970B-81138F060E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46B58715-E9FA-453B-970B-81138F060E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B0B01E-A76B-4883-9CB0-96FE153F412C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B0B01E-A76B-4883-9CB0-96FE153F412C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B0B01E-A76B-4883-9CB0-96FE153F412C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B0B01E-A76B-4883-9CB0-96FE153F412C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
